@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="loadingPage"></div>
+    <div class="Timer">
+      <div class="setTime">
+        <a href="#" class="previous round">&#8249;</a>
+
+        <p class="10">10<br>
+        minutes</p>
+        
+        <a href="#" class="next round">&#8250;</a>
+      </div>
+      <div class="timerSettings">
+        <label class="container">
+          <input type="checkbox" />Intervals
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">
+          <input type="checkbox" />5 min break / Interval
+          <span class="checkmark"></span>
+        </label>
+        <button class="startTimer">Start Timer</button>
+      </div>
+    </div>
     <script src="script.js" defer></script>
-</body>
+  </body>
 </html>

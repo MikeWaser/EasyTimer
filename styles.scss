@@ -1,1 +1,46 @@
 @import "./partials/colors";
+@import "./partials/fonts";
+
+
+*,
+* ::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Timer {
+    border: 0.5px solid black;
+    aspect-ratio: 9 / 18;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setTime {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+
+
+.timerSettings {
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.startTimer {
+    text-transform: uppercase;
+}
